@@ -1,3 +1,5 @@
+
+
 a, a:link, a:visited {
 	text-decoration: none;
 	color: #E5E7EB; 
@@ -5,6 +7,9 @@ a, a:link, a:visited {
 
 .dark {
     background-color: #1F2937;
+    height: 600px;
+    width: auto;
+    margin: 0;
 }
 
 .navbar {
@@ -15,6 +20,7 @@ a, a:link, a:visited {
     justify-content: flex-end;
     margin-top: -20px;
     margin-right: 150px;
+    font-style: italic;
     
 
 }
@@ -24,6 +30,8 @@ font-size: 24px;
 color: #F9FAF8;
 font-weight: 900;
 margin-left: 150px;
+display: flex;
+padding-top: 20px;
 }
 
 .awesome, .kleiner {
@@ -62,10 +70,26 @@ margin-top: -40px;
 .bild {
 
     width: 400px;
-    height: 180px;
+    height: 250px;
     padding-top: 100px;
     padding-right: 135px;
     
     
     float: right;
+    }
+
+    .extra-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+
+    }
+
+    .schriftart {
+        font-family: Arial, Helvetica, sans-serif;
+
     }
