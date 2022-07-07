@@ -8,10 +8,22 @@
     display: flex;
     gap: 8px;
     justify-content: flex-end;
+    margin-top: -20px;
+    margin-right: 150px;
 
 }
 
 .header-logo {
 font-size: 24px;
-color: #F9FAF8
+color: #F9FAF8;
+font-weight: 900;
+margin-left: 150px;
+}
+
+.awesome {
+margin-top: 200px;
+margin-left: 150px;
+font-size: 48px;
+font-weight: 900;
+color: #F9FAF8;
 }
