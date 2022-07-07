@@ -6,7 +6,7 @@ a, a:link, a:visited {
 }
 
 .dark {
-    background-color: #1F2937;
+    background: #1F2937;
     height: 600px;
     width: auto;
     margin: 0;
@@ -105,7 +105,52 @@ margin-top: -40px;
 .reihe {
     display:flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
    
+}
+
+.undertext {
+display: flex;
+flex-direction: row;
+gap: 95px;
+
+justify-content: center;
+font-size: 18px;
+color: #1F2937;
+padding-top: 10px;
+padding-left: 15px;
+}
+
+.grau
+{   
+    background: #E5E7EB;
+    height: 500px;
+    
+
+    display:flex;
+}
+
+.weiss
+{
+padding-bottom: 150px;
+
+}
+
+.zitat
+{
+padding-left: 300px;
+padding-top: 100px;
+font-size: 36px;
+font-style: italic;
+color: #1F2937;
+
+
+}
+
+.thor {
+font-weight: 900;
+padding-top: 450px;
+font-size: 20px;
+
 
 }
