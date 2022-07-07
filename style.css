@@ -57,6 +57,15 @@ margin-top: -40px;
     color: white;
     font-size: 20px;
     border: #1F2937
-
-
 }
+
+.bild {
+
+    width: 400px;
+    height: 180px;
+    padding-top: 100px;
+    padding-right: 135px;
+    
+    
+    float: right;
+    }
