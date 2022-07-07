@@ -1,3 +1,8 @@
+a, a:link, a:visited {
+	text-decoration: none;
+	color: #E5E7EB; 
+}
+
 .dark {
     background-color: #1F2937;
 }
@@ -6,10 +11,11 @@
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
-    gap: 8px;
+    gap: 18px;
     justify-content: flex-end;
     margin-top: -20px;
     margin-right: 150px;
+    
 
 }
 
@@ -20,10 +26,14 @@ font-weight: 900;
 margin-left: 150px;
 }
 
-.awesome {
+.awesome, .kleiner {
 margin-top: 200px;
 margin-left: 150px;
 font-size: 48px;
 font-weight: 900;
 color: #F9FAF8;
+}
+
+.kleiner {
+margin-top: auto;
 }
